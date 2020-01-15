@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+ background:rgb(26,32,37);
+
+}
+
+img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+p {
+  color: #eee;
+}

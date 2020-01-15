@@ -1,0 +1,37 @@
+.searched {
+  height: 45px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+  border: 1px solid #666;
+  position: absolute;
+  transition: 250ms ease-in-out;
+  right: 0rem;
+  top: 5rem;
+
+  form {
+    width: 100%;
+    input {
+      font-family: "Montserrat";
+      color: #000;
+      padding: 0.5rem;
+
+      font-size: 1.1rem;
+      width: 100%;
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+.openSearch {
+  display: flex;
+}
+
+@media (max-width: 410px) {
+  .searched {
+    width: 100%;
+  }
+}

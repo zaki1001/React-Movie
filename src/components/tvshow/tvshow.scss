@@ -1,0 +1,35 @@
+.tvShow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .shows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    flex-direction: column;
+    p {
+      font-size: 1rem;
+      margin: 1rem 0;
+      font-family: "Montserrat";
+      color: #eee;
+    }
+    button {
+      padding: 1rem 4.77rem;
+      font-family: "ubuntu";
+      cursor: pointer;
+      background: rgb(169, 219, 221);
+      text-transform: uppercase;
+      border: none;
+      outline: none;
+    }
+    img {
+      height: 340px;
+      width: 250px;
+      margin: 0 0.5rem;
+      object-fit: cover;
+      cursor:pointer;
+    }
+  }
+}
